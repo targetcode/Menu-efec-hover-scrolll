@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Acme|Open+Sans:400,700|Source+Sans+Pro:400,600,700" rel="stylesheet');
+html{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: #f2f2f2;
+	font-family: 'Open Sans', sans-serif;
+}
+
+nav.bg-transparent {
+    background: transparent;
+    transition: all .3s ease;
+}
+
+nav.navbar.navbar-expand-md.bg-dark.navbar-dark.fixed-top:hover{
+	background: #171719a3!important;
+}
+
+
+
+nav ul{
+	transition: all .6s ease;
+}
+
+nav ul li.nav-item a{
+	color: #f1f1f1!important;
+	font-family: 'Open Sans', sans-serif;
+	transition: all .3s ease;
+}
+
+nav ul li.nav-item a:hover{
+	color: #3498DB!important;
+}
+
+@media only screen and (min-width: 992px){
+	.nav-scroll{
+		margin: 0 35px;
+	    transition: all .6s ease;
+	}
+
+	.logo{
+		display: block!important;
+		transition: all .9s ease;
+	}
+}
+
+@media only screen and (max-width: 992px){
+	img#logo{
+		display: none!important;
+	}
+}
+
+.bg-menu {
+   background: #171719a3!important;
+}
+
+img#logo{
+	margin-top: 30px;
+	padding: 0 10px;
+	position: absolute;
+	display: none;
+	transition: all .9s ease;
+
+}
+
+header.hero{
+	background: url(../banner.jpg);
+	background-position: center center;
+	background-size: cover;
+	height: 100vh;
+	background-attachment: fixed;
+}
+
+.conten-title{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 40%;
+}
+
+
+h2{
+    font-family: 'Acme', sans-serif;
+    font-size: 2.4em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #f2f2f2;
+}
+
+h2 img{
+	margin-right: 20px;
+}
+
+.slogan{
+	text-align: center;
+	color: #f2f2f2;
+	font-size: 15px;
+	margin-top: 5px;
+}
+main{
+	position: relative;
+}
+
+main .centen-des{
+	margin-top: 10px;
+	padding: 16px 10px;
+	border-top: 4px solid #3498DB;
+	background: #fff;
+}
+
+footer{
+	background:  #121213de;
+	padding: 10px;
+	text-align: center;
+	color: #f2f2f2;
+	font-size: 13px;
+}
+
+footer a{
+	color: #f2f2f2;
+	text-decoration: none;
+}
